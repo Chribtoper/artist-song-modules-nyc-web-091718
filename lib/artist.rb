@@ -9,7 +9,6 @@ class Artist
   def initialize
     @@artists << self
     @songs = []
-    binding.pry
 
   end
 
