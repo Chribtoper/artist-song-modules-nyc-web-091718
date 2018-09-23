@@ -9,6 +9,8 @@ class Artist
   def initialize
     @@artists << self
     @songs = []
+    binding.pry
+
   end
 
   def self.find_by_name(name)
